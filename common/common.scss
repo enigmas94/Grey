@@ -1,0 +1,33 @@
+// Staff colour
+.moderator .regular>.cooked {
+    background-color: #069 !important;
+    border-radius: 6px;
+}
+
+// Staff colour Link underline
+.moderator .regular>.cooked a, .user-stream .item.moderator-action .title a {
+    color: #efefef !important;
+    border-bottom: 1px dotted #fff !important;
+}
+
+// Official Moderator post
+.moderator .cooked:after {
+    content: "Official Post";
+    font-size: large;
+    float:right;
+    padding: 5px;
+    background-color: #e45735;
+    border-radius: 6px;
+}
+
+// Wiki background
+
+.wiki .topic-body {
+    background-color: #004220;
+}
+
+// Staff username colour
+
+.names span.staff a {
+   color: #FFFFFF;
+}
